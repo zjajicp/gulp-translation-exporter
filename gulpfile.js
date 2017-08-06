@@ -16,12 +16,12 @@ const outputDir = './client/src/resources/aem/requests';
 const defaultExporterConfig = {
   dictionaries,
   protocol: 'https',
-  hostname: 'sit-aem.ryanair.com',
-  path: '/apps/ryanair/',
+  hostname: 'hostname of the dictionary',
+  path: 'path to the dictionary folder',
   jira: {
-    webSite: 'https://jira.ryanair.com:8443',
+    webSite: 'jira url',
     browsePath: 'browse',
-    api: 'https://jira.ryanair.com:8443/rest/api/2',
+    api: 'jira rest api url',
     projectKey: 'hereGoesJiraProjectName',
     ticketPriority: '2',
     ticketAssigneeName: 'hereGoesTheJiraUserNameOfTheTranslationPerson',
